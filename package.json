@@ -1,0 +1,27 @@
+{
+  "name": "iot-uniovi-gateway",
+  "version": "1.0.0",
+  "description": "IoT PoC Gateway",
+  "main": "node_modules/node-red/red.js",
+  "scripts": {
+    "start": "node node_modules/node-red/red.js -s settings.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masalinas/iot-uniovi-api.git"
+  },
+  "keywords": [
+    "iot"
+  ],
+  "author": "Thingtrack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masalinas/iot-uniovi-api/issues"
+  },
+  "homepage": "https://github.com/masalinas/iot-uniovi-api#readme",
+  "dependencies": {
+    "node-red": "^0.19.5",
+    "node-red-contrib-mqtt-broker": "^0.2.4"
+  }
+}
