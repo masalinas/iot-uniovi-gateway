@@ -22,6 +22,8 @@
   "homepage": "https://github.com/masalinas/iot-uniovi-api#readme",
   "dependencies": {
     "node-red": "^0.19.5",
+    "node-red-contrib-chartjs": "0.0.2",
+    "node-red-contrib-mongodb3": "^2.0.0",
     "node-red-contrib-mqtt-broker": "^0.2.4"
   }
 }
